@@ -398,3 +398,82 @@
 2021-02-20 11:50:30,378 [main] INFO logger_File - Retail page is opened
 2021-02-20 11:50:30,386 [main] INFO logger_File - Page title  is verified
 2021-02-20 11:50:34,848 [main] INFO logger_File -    passed
+2021-02-20 12:35:27,255 [main] INFO logger_File - Scenario Add and Remove a Mac Book from cart Started 
+2021-02-20 12:35:32,542 [main] INFO logger_File - Retail page is opened
+2021-02-20 12:35:32,556 [main] INFO logger_File - Page title  is verified
+2021-02-20 12:35:34,264 [main] INFO logger_File - Add and Remove a Mac Book from cart   undefined
+2021-02-20 12:35:34,269 [main] INFO logger_File - Scenario Product Comparison Started 
+2021-02-20 12:35:38,631 [main] INFO logger_File - Retail page is opened
+2021-02-20 12:35:38,646 [main] INFO logger_File - Page title  is verified
+2021-02-20 12:35:39,701 [main] INFO logger_File - Product Comparison   undefined
+2021-02-20 12:35:39,709 [main] INFO logger_File - Scenario Adding and item to Wish list Started 
+2021-02-20 12:35:45,268 [main] INFO logger_File - Retail page is opened
+2021-02-20 12:35:45,277 [main] INFO logger_File - Page title  is verified
+2021-02-20 12:35:46,565 [main] INFO logger_File - Adding and item to Wish list   undefined
+2021-02-20 12:35:46,584 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-02-20 12:35:50,156 [main] INFO logger_File - Retail page is opened
+2021-02-20 12:35:50,166 [main] INFO logger_File - Page title  is verified
+2021-02-20 12:35:51,467 [main] INFO logger_File - Validate the price of MacBook Pro is 2000   undefined
+2021-02-20 13:23:59,186 [main] INFO logger_File - Scenario Add and Remove a Mac Book from cart Started 
+2021-02-20 13:24:04,154 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:24:04,166 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:24:08,104 [main] INFO logger_File - Add and Remove a Mac Book from cart   failed
+2021-02-20 13:24:08,110 [main] INFO logger_File - Scenario Product Comparison Started 
+2021-02-20 13:24:11,562 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:24:11,574 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:24:41,029 [main] INFO logger_File - Scenario Adding and item to Wish list Started 
+2021-02-20 13:24:44,819 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:24:44,826 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:24:47,145 [main] INFO logger_File - Adding and item to Wish list   passed
+2021-02-20 13:24:47,153 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-02-20 13:24:50,783 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:24:50,793 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:24:58,110 [main] INFO logger_File - Validate the price of MacBook Pro is 2000   passed
+2021-02-20 13:28:31,874 [main] INFO logger_File - Scenario Add and Remove a Mac Book from cart Started 
+2021-02-20 13:28:37,247 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:28:37,263 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:28:44,446 [main] INFO logger_File - Add and Remove a Mac Book from cart   undefined
+2021-02-20 13:28:44,453 [main] INFO logger_File - Scenario Product Comparison Started 
+2021-02-20 13:28:48,124 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:28:48,135 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:28:51,410 [main] INFO logger_File - Product Comparison   passed
+2021-02-20 13:28:51,415 [main] INFO logger_File - Scenario Adding and item to Wish list Started 
+2021-02-20 13:28:55,146 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:28:55,152 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:28:57,396 [main] INFO logger_File - Adding and item to Wish list   passed
+2021-02-20 13:28:57,407 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-02-20 13:29:01,198 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:29:01,206 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:29:08,777 [main] INFO logger_File - Validate the price of MacBook Pro is 2000   passed
+2021-02-20 13:31:23,020 [main] INFO logger_File - Scenario Add and Remove a Mac Book from cart Started 
+2021-02-20 13:31:28,492 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:31:28,505 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:31:33,550 [main] INFO logger_File - Add and Remove a Mac Book from cart   passed
+2021-02-20 13:31:33,562 [main] INFO logger_File - Scenario Product Comparison Started 
+2021-02-20 13:31:38,149 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:31:38,162 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:31:41,257 [main] INFO logger_File - Product Comparison   passed
+2021-02-20 13:31:41,265 [main] INFO logger_File - Scenario Adding and item to Wish list Started 
+2021-02-20 13:31:45,421 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:31:45,433 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:31:47,927 [main] INFO logger_File - Adding and item to Wish list   passed
+2021-02-20 13:31:47,937 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-02-20 13:31:52,313 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:31:52,324 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:32:01,111 [main] INFO logger_File - Validate the price of MacBook Pro is 2000   passed
+2021-02-20 13:33:20,829 [main] INFO logger_File - Scenario Add and Remove a Mac Book from cart Started 
+2021-02-20 13:33:26,322 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:33:26,338 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:33:30,934 [main] INFO logger_File - Add and Remove a Mac Book from cart   passed
+2021-02-20 13:33:30,939 [main] INFO logger_File - Scenario Product Comparison Started 
+2021-02-20 13:33:34,865 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:33:34,877 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:33:38,677 [main] INFO logger_File - Product Comparison   passed
+2021-02-20 13:33:38,686 [main] INFO logger_File - Scenario Adding and item to Wish list Started 
+2021-02-20 13:33:42,541 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:33:42,551 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:33:45,319 [main] INFO logger_File - Adding and item to Wish list   passed
+2021-02-20 13:33:45,330 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started 
+2021-02-20 13:33:49,184 [main] INFO logger_File - Retail page is opened
+2021-02-20 13:33:49,194 [main] INFO logger_File - Page title  is verified
+2021-02-20 13:33:53,864 [main] INFO logger_File - Validate the price of MacBook Pro is 2000   passed

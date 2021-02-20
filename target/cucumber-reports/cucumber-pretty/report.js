@@ -1,19 +1,19 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Features/DesktopFeature.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Features/Laptop\u0026NoteBooks.feature");
 formatter.feature({
   "line": 2,
-  "name": "Desktop Features",
+  "name": "Laptop And NoteBooks Features",
   "description": "",
-  "id": "desktop-features",
+  "id": "laptop-and-notebooks-features",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@TestOfDesktoppp"
+      "name": "@Laptop\u0026NoteBookTest"
     }
   ]
 });
 formatter.before({
-  "duration": 3172979000,
+  "duration": 3622921100,
   "status": "passed"
 });
 formatter.background({
@@ -30,186 +30,153 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User Click on Desktops tab",
+  "name": "User click on Laptop \u0026 NoteBook tab",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "User click on Show all desktops",
+  "name": "User click on Show all Laptop \u0026 NoteBook option",
   "keyword": "And "
 });
 formatter.match({
   "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
 });
 formatter.result({
-  "duration": 2294337100,
+  "duration": 2471731200,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_Click_on_Desktops_tab()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
 });
 formatter.result({
-  "duration": 68978200,
+  "duration": 71925900,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_Show_all_desktops()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
 });
 formatter.result({
-  "duration": 546616600,
+  "duration": 488398400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "",
+  "line": 11,
+  "name": "Add and Remove a Mac Book from cart",
   "description": "",
-  "id": "desktop-features;",
+  "id": "laptop-and-notebooks-features;add-and-remove-a-mac-book-from-cart",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 12,
-  "name": "User should see all items are present in Desktop page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_should_see_all_items_are_present_in_Desktop_page()"
-});
-formatter.result({
-  "duration": 375649600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1218735800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1812842800,
-  "status": "passed"
-});
-formatter.background({
-  "line": 4,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "User is on Retail website",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "User Click on Desktops tab",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "User click on Show all desktops",
+  "line": 13,
+  "name": "User click on MacBook  item",
   "keyword": "And "
 });
-formatter.match({
-  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-});
-formatter.result({
-  "duration": 2947632300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_Click_on_Desktops_tab()"
-});
-formatter.result({
-  "duration": 67201100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_Show_all_desktops()"
-});
-formatter.result({
-  "duration": 657760600,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.step({
   "line": 14,
-  "name": "",
-  "description": "",
-  "id": "desktop-features;",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "name": "User clickadd to Cart button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 16,
-  "name": "User click ADD TO CART option on \u0027HP LP3065\u0027 item",
+  "name": "User should see ‘1tem(s)-602.00’showed to the cart",
   "keyword": "And "
 });
 formatter.step({
   "line": 17,
-  "name": "User select quantity 1",
+  "name": "User click on cart option",
   "keyword": "And "
 });
 formatter.step({
   "line": 18,
-  "name": "User click add to Cart button",
+  "name": "User click on red X button to remove the item from cart",
   "keyword": "And "
 });
 formatter.step({
   "line": 19,
-  "name": "User should see a message \u0027Success: you have added HP LP 3065 to your Shopping cart!\u0027",
+  "name": "item should be removed and cartshould show ‘0 item(s)’",
   "keyword": "Then "
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "3065",
-      "offset": 39
-    }
-  ],
-  "location": "DesktopStepDefinition.user_click_ADD_TO_CART_option_on_HP_LP_item(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_MacBook_item()"
 });
 formatter.result({
-  "duration": 93214500,
+  "duration": 1491218700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_clickadd_to_Cart_button()"
+});
+formatter.result({
+  "duration": 111341200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_see_a_message_Success_You_have_added_MacBook_to_your_shopping_cart()"
+});
+formatter.result({
+  "duration": 352404100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "1",
-      "offset": 21
+      "offset": 17
+    },
+    {
+      "val": "602",
+      "offset": 25
+    },
+    {
+      "val": "00",
+      "offset": 29
     }
   ],
-  "location": "DesktopStepDefinition.user_select_quantity(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_see_tem_s_showed_to_the_cart(int,int,int)"
 });
 formatter.result({
-  "duration": 4694816500,
+  "duration": 300074100,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_click_add_to_Cart_button()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_cart_option()"
 });
 formatter.result({
-  "duration": 79022600,
+  "duration": 70394800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_red_X_button_to_remove_the_item_from_cart()"
+});
+formatter.result({
+  "duration": 52339700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3065",
-      "offset": 57
+      "val": "0",
+      "offset": 44
     }
   ],
-  "location": "DesktopStepDefinition.user_should_see_a_message_Success_you_have_added_HP_LP_to_your_Shopping_cart(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.item_should_be_removed_and_cartshould_show_item_s(int)"
 });
 formatter.result({
-  "duration": 345012200,
+  "duration": 334062100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1015795700,
+  "duration": 947148800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1790771900,
+  "duration": 1841860500,
   "status": "passed"
 });
 formatter.background({
@@ -226,127 +193,109 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User Click on Desktops tab",
+  "name": "User click on Laptop \u0026 NoteBook tab",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "User click on Show all desktops",
+  "name": "User click on Show all Laptop \u0026 NoteBook option",
   "keyword": "And "
 });
 formatter.match({
   "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
 });
 formatter.result({
-  "duration": 2203601500,
+  "duration": 2438586900,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_Click_on_Desktops_tab()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
 });
 formatter.result({
-  "duration": 70362900,
+  "duration": 61908300,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_Show_all_desktops()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
 });
 formatter.result({
-  "duration": 635576500,
+  "duration": 1469579000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "",
+  "name": "Product Comparison",
   "description": "",
-  "id": "desktop-features;",
+  "id": "laptop-and-notebooks-features;product-comparison",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
+  "line": 22,
+  "name": "User click on product comparison icon on ‘MacBook’",
+  "keyword": "And "
+});
+formatter.step({
   "line": 23,
-  "name": "User click ADD TO CART option on \u0027Canon EOS 5D\u0027 item",
+  "name": "User click on product comparison icon on ‘MacBook Air",
   "keyword": "And "
 });
 formatter.step({
   "line": 24,
-  "name": "User select color from dropdown \u0027Red\u0027",
-  "keyword": "And "
+  "name": "User should see a message ‘Success: You have added MacBook Air to your product comparison!’",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 25,
-  "name": "User select quuantity 1",
+  "name": "User click on Product comparison link",
   "keyword": "And "
 });
 formatter.step({
   "line": 26,
-  "name": "User click add too Cart button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "User should see a message \u0027Succes: You have added Canon EOS 5d to your shopping cart\u0027",
+  "name": "User should see Product Comparison Chart",
   "keyword": "Then "
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "5",
-      "offset": 44
-    }
-  ],
-  "location": "DesktopStepDefinition.user_click_ADD_TO_CART_option_on_Canon_EOS_D_item(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_product_comparison_icon_on_MacBook()"
 });
 formatter.result({
-  "duration": 71955600,
+  "duration": 75399000,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_select_color_from_dropdown_Red()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_product_comparison_icon_on_MacBook_Air()"
 });
 formatter.result({
-  "duration": 1777162900,
+  "duration": 73120000,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "1",
-      "offset": 22
-    }
-  ],
-  "location": "DesktopStepDefinition.user_select_quuantity(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_see_a_message_Success_You_have_added_MacBook_Air_to_your_product_comparison()"
 });
 formatter.result({
-  "duration": 147456900,
+  "duration": 434521900,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_click_add_too_Cart_button()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Product_comparison_link()"
 });
 formatter.result({
-  "duration": 83841500,
+  "duration": 68445400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "5",
-      "offset": 60
-    }
-  ],
-  "location": "DesktopStepDefinition.user_should_see_a_message_Succes_You_have_added_Canon_EOS_d_to_your_shopping_cart(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_see_Product_Comparison_Chart()"
 });
 formatter.result({
-  "duration": 316718400,
+  "duration": 356432300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 896303000,
+  "duration": 896420600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1782767200,
+  "duration": 1886723300,
   "status": "passed"
 });
 formatter.background({
@@ -363,129 +312,166 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User Click on Desktops tab",
+  "name": "User click on Laptop \u0026 NoteBook tab",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "User click on Show all desktops",
+  "name": "User click on Show all Laptop \u0026 NoteBook option",
   "keyword": "And "
 });
 formatter.match({
   "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
 });
 formatter.result({
-  "duration": 2236088900,
+  "duration": 2313418500,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_Click_on_Desktops_tab()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
 });
 formatter.result({
-  "duration": 59564000,
+  "duration": 79008000,
   "status": "passed"
 });
 formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_Show_all_desktops()"
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
 });
 formatter.result({
-  "duration": 557747500,
+  "duration": 465432500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "",
+  "line": 28,
+  "name": "Adding and item to Wish list",
   "description": "",
-  "id": "desktop-features;",
+  "id": "laptop-and-notebooks-features;adding-and-item-to-wish-list",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 31,
-  "name": "User click on Canon EOS 5D item",
+  "line": 29,
+  "name": "User click on heart icon to add ‘Sony VaIO’laptop to wish list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
-  "name": "User click on write a review link",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "user fill the review information with below information",
-  "rows": [
-    {
-      "cells": [
-        "yourname",
-        "yourReview",
-        "Rating"
-      ],
-      "line": 35
-    },
-    {
-      "cells": [
-        "AlexJohn",
-        "VeryGoodVeryGoodVeryGood",
-        "Good"
-      ],
-      "line": 36
-    }
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 38,
-  "name": "User click on Continue Button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 39,
-  "name": "User should see a message with \u0027Thank you for your review. It has been submitted to the webmaster for approval\u0027",
+  "line": 30,
+  "name": "User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’",
   "keyword": "Then "
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_heart_icon_to_add_Sony_VaIO_laptop_to_wish_list()"
+});
+formatter.result({
+  "duration": 77818000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_get_a_message_You_must_login_or_create_an_account_to_save_Sony_VAIO_to_your_wish_list()"
+});
+formatter.result({
+  "duration": 381247800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1419120600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1860699400,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "User is on Retail website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "User click on Laptop \u0026 NoteBook tab",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User click on Show all Laptop \u0026 NoteBook option",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+});
+formatter.result({
+  "duration": 2327555600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
+});
+formatter.result({
+  "duration": 56827200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
+});
+formatter.result({
+  "duration": 801202900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Validate the price of MacBook Pro is 2000",
+  "description": "",
+  "id": "laptop-and-notebooks-features;validate-the-price-of-macbook-pro-is-2000",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 34,
+  "name": "User click on ‘MacBook Pro’item",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "User should see ‘$2,000.00’price tag is present on UI.",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LaptopAndNoteBookStepDefinitions.user_click_on_MacBook_Pro_item()"
+});
+formatter.result({
+  "duration": 1597980300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "5",
+      "val": "2",
+      "offset": 18
+    },
+    {
+      "val": "000",
+      "offset": 20
+    },
+    {
+      "val": "00",
       "offset": 24
     }
   ],
-  "location": "DesktopStepDefinition.user_click_on_Canon_EOS_D_item(int)"
+  "location": "LaptopAndNoteBookStepDefinitions.user_should_see_$_price_tag_is_present_on_UI(int,int,int)"
 });
 formatter.result({
-  "duration": 1545061800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_write_a_review_link()"
-});
-formatter.result({
-  "duration": 88276100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_fill_the_review_information_with_below_information(DataTable)"
-});
-formatter.result({
-  "duration": 337936800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_click_on_Continue_Button()"
-});
-formatter.result({
-  "duration": 67356600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopStepDefinition.user_should_see_a_message_with_Thank_you_for_your_review_It_has_been_submitted_to_the_webmaster_for_approval()"
-});
-formatter.result({
-  "duration": 317703100,
+  "duration": 316965900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 930608500,
+  "duration": 1560982800,
   "status": "passed"
 });
 });
