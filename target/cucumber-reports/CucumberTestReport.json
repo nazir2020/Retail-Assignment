@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2471731200,
+              "duration": 2536804000,
               "status": "passed"
             },
             "line": 6,
@@ -23,216 +23,111 @@
           },
           {
             "result": {
-              "duration": 71925900,
+              "duration": 58582600,
               "status": "passed"
             },
             "line": 7,
-            "name": "User click on Laptop \u0026 NoteBook tab",
+            "name": "User click  on MyAccount",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
+              "location": "LoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3616550800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 488398400,
+              "duration": 477622600,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User click on Show all Laptop \u0026 NoteBook option",
+            "line": 9,
+            "name": "User enter username \u0027sdet@tekschool.us\u0027 and password \u0027sdet\u0027",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
+              "arguments": [
+                {
+                  "val": "sdet@tekschool.us",
+                  "offset": 21
+                },
+                {
+                  "val": "sdet",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156890000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3300230500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "before": [
+        "comments": [
           {
-            "result": {
-              "duration": 3622921100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Add and Remove a Mac Book from cart",
-        "description": "",
-        "id": "laptop-and-notebooks-features;add-and-remove-a-mac-book-from-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 947148800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1491218700,
-              "status": "passed"
-            },
             "line": 13,
-            "name": "User click on MacBook  item",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_MacBook_item()"
-            },
-            "keyword": "And "
+            "value": "#Scenario: Register as an Affiliate userwith Cheque Payment Method"
           },
           {
-            "result": {
-              "duration": 111341200,
-              "status": "passed"
-            },
             "line": 14,
-            "name": "User clickadd to Cart button",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_clickadd_to_Cart_button()"
-            },
-            "keyword": "And "
+            "value": "#\tWhen User click on‘Register for an Affiliate Account’link"
           },
           {
-            "result": {
-              "duration": 352404100,
-              "status": "passed"
-            },
             "line": 15,
-            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_see_a_message_Success_You_have_added_MacBook_to_your_shopping_cart()"
-            },
-            "keyword": "Then "
+            "value": "#\tAnd User fill affiliate form with below information"
           },
           {
-            "result": {
-              "duration": 300074100,
-              "status": "passed"
-            },
             "line": 16,
-            "name": "User should see ‘1tem(s)-602.00’showed to the cart",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 17
-                },
-                {
-                  "val": "602",
-                  "offset": 25
-                },
-                {
-                  "val": "00",
-                  "offset": 29
-                }
-              ],
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_see_tem_s_showed_to_the_cart(int,int,int)"
-            },
-            "keyword": "And "
+            "value": "#\t\t|company|website|taxID|paymentMethod|"
           },
           {
-            "result": {
-              "duration": 70394800,
-              "status": "passed"
-            },
             "line": 17,
-            "name": "User click on cart option",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_cart_option()"
-            },
-            "keyword": "And "
+            "value": "#\tAnd User check on About us check box"
           },
           {
-            "result": {
-              "duration": 52339700,
-              "status": "passed"
-            },
             "line": 18,
-            "name": "User click on red X button to remove the item from cart",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_red_X_button_to_remove_the_item_from_cart()"
-            },
-            "keyword": "And "
+            "value": "#\tAnd User click on Continue button"
           },
           {
-            "result": {
-              "duration": 334062100,
-              "status": "passed"
-            },
             "line": 19,
-            "name": "item should be removed and cartshould show ‘0 item(s)’",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0",
-                  "offset": 44
-                }
-              ],
-              "location": "LaptopAndNoteBookStepDefinitions.item_should_be_removed_and_cartshould_show_item_s(int)"
-            },
-            "keyword": "Then "
+            "value": "#\tThen User should see a success message"
           }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2438586900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 61908300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Laptop \u0026 NoteBook tab",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1469579000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User click on Show all Laptop \u0026 NoteBook option",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
+        ],
         "before": [
           {
             "result": {
-              "duration": 1841860500,
+              "duration": 2489129400,
               "status": "passed"
             },
             "match": {
@@ -241,13 +136,13 @@
           }
         ],
         "line": 21,
-        "name": "Product Comparison",
+        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
         "description": "",
-        "id": "laptop-and-notebooks-features;product-comparison",
+        "id": "retail-page-login-testing;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
         "after": [
           {
             "result": {
-              "duration": 896420600,
+              "duration": 725056000,
               "status": "passed"
             },
             "match": {
@@ -260,162 +155,83 @@
         "steps": [
           {
             "result": {
-              "duration": 75399000,
+              "duration": 271538900,
               "status": "passed"
             },
             "line": 22,
-            "name": "User click on product comparison icon on ‘MacBook’",
+            "name": "User click on‘Edit your affiliate informationlink",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_product_comparison_icon_on_MacBook()"
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_affiliate_informationlink()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 73120000,
+              "duration": 71967100,
               "status": "passed"
             },
             "line": 23,
-            "name": "User click on product comparison icon on ‘MacBook Air",
+            "name": "user click on Bank Transfer radio button",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_product_comparison_icon_on_MacBook_Air()"
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Bank_Transfer_radio_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 434521900,
+              "duration": 340895500,
               "status": "passed"
             },
             "line": 24,
-            "name": "User should see a message ‘Success: You have added MacBook Air to your product comparison!’",
+            "name": "User fill Bank information with below information",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_see_a_message_Success_You_have_added_MacBook_Air_to_your_product_comparison()"
+              "location": "RetailPageLoginTestStepDefinition.user_fill_Bank_information_with_below_information(DataTable)"
             },
-            "keyword": "Then "
+            "rows": [
+              {
+                "cells": [
+                  "bankName",
+                  "abaNumber",
+                  "swiftCode",
+                  "accountName",
+                  "accountNumber"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "Bank of America",
+                  "100200",
+                  "225588",
+                  "Suhrab",
+                  "112233665544"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 68445400,
+              "duration": 799951700,
               "status": "passed"
             },
-            "line": 25,
-            "name": "User click on Product comparison link",
+            "line": 27,
+            "name": "User click on Continue AffiliateButton",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Product_comparison_link()"
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_affiliatebutton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 356432300,
+              "duration": 288457300,
               "status": "passed"
             },
-            "line": 26,
-            "name": "User should see Product Comparison Chart",
+            "line": 28,
+            "name": "User should see a success message",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_see_Product_Comparison_Chart()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2313418500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 79008000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Laptop \u0026 NoteBook tab",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 465432500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User click on Show all Laptop \u0026 NoteBook option",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1886723300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "Adding and item to Wish list",
-        "description": "",
-        "id": "laptop-and-notebooks-features;adding-and-item-to-wish-list",
-        "after": [
-          {
-            "result": {
-              "duration": 1419120600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 77818000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "User click on heart icon to add ‘Sony VaIO’laptop to wish list",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_heart_icon_to_add_Sony_VaIO_laptop_to_wish_list()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 381247800,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_get_a_message_You_must_login_or_create_an_account_to_save_Sony_VAIO_to_your_wish_list()"
+              "location": "RetailPageLoginTestStepDefinition.user_should_see_a_success_message()"
             },
             "keyword": "Then "
           }
@@ -430,7 +246,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2327555600,
+              "duration": 2238295600,
               "status": "passed"
             },
             "line": 6,
@@ -442,110 +258,186 @@
           },
           {
             "result": {
-              "duration": 56827200,
+              "duration": 61011300,
               "status": "passed"
             },
             "line": 7,
-            "name": "User click on Laptop \u0026 NoteBook tab",
+            "name": "User click  on MyAccount",
             "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Laptop_NoteBook_tab()"
+              "location": "LoginTestStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3544585700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 801202900,
+              "duration": 513125800,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User click on Show all Laptop \u0026 NoteBook option",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_Show_all_Laptop_NoteBook_option()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1860699400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks(Scenario)"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "Validate the price of MacBook Pro is 2000",
-        "description": "",
-        "id": "laptop-and-notebooks-features;validate-the-price-of-macbook-pro-is-2000",
-        "after": [
-          {
-            "result": {
-              "duration": 1560982800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1597980300,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "User click on ‘MacBook Pro’item",
-            "match": {
-              "location": "LaptopAndNoteBookStepDefinitions.user_click_on_MacBook_Pro_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 316965900,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "User should see ‘$2,000.00’price tag is present on UI.",
+            "line": 9,
+            "name": "User enter username \u0027sdet@tekschool.us\u0027 and password \u0027sdet\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
-                  "offset": 18
+                  "val": "sdet@tekschool.us",
+                  "offset": 21
                 },
                 {
-                  "val": "000",
-                  "offset": 20
-                },
-                {
-                  "val": "00",
-                  "offset": 24
+                  "val": "sdet",
+                  "offset": 54
                 }
               ],
-              "location": "LaptopAndNoteBookStepDefinitions.user_should_see_$_price_tag_is_present_on_UI(int,int,int)"
+              "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1583388800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3292242100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1546635000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Edit your account Information",
+        "description": "",
+        "id": "retail-page-login-testing;edit-your-account-information",
+        "after": [
+          {
+            "result": {
+              "duration": 741843400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 669929100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on‘Edit your account information’ link",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_Edit_your_account_information_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 299965300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User modify below information",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_modify_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastName",
+                  "email",
+                  "telephone"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "Suhrab",
+                  "Khiabani",
+                  "suhrabkhiabani@tekschool.com",
+                  "301-401-7895"
+                ],
+                "line": 34
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77144800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on continue button",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430156600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should seea message ‘Success: Your account has been successfully updated.’",
+            "match": {
+              "location": "RetailPageLoginTestStepDefinition.user_should_seea_message_Success_Your_account_has_been_successfully_updated()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Laptop And NoteBooks Features",
+    "name": "Retail Page Login Testing",
     "description": "",
-    "id": "laptop-and-notebooks-features",
+    "id": "retail-page-login-testing",
     "keyword": "Feature",
-    "uri": "Features/Laptop\u0026NoteBooks.feature",
+    "uri": "Features/RetailPageLogin.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@Laptop\u0026NoteBookTest"
+        "name": "@RetailTesting"
       }
     ]
   }

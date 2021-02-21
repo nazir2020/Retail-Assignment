@@ -477,3 +477,102 @@
 2021-02-20 13:33:49,184 - logger_File -INFO - Retail page is opened
 2021-02-20 13:33:49,194 - logger_File -INFO - Page title  is verified
 2021-02-20 13:33:53,864 - logger_File -INFO - Validate the price of MacBook Pro is 2000   passed
+2021-02-20 21:32:55,006 - logger_File -INFO - Scenario Register as an Affiliate userwith Cheque Payment Method Started 
+2021-02-20 21:32:59,422 - logger_File -INFO - Retail page is opened
+2021-02-20 21:32:59,432 - logger_File -INFO - Page title  is verified
+2021-02-20 21:32:59,964 - logger_File -INFO - User click on My Account
+2021-02-20 21:33:00,262 - logger_File -INFO - User click on Login
+2021-02-20 21:33:04,956 - logger_File -INFO - Register as an Affiliate userwith Cheque Payment Method   undefined
+2021-02-20 21:33:04,964 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-02-20 21:33:08,401 - logger_File -INFO - Retail page is opened
+2021-02-20 21:33:08,409 - logger_File -INFO - Page title  is verified
+2021-02-20 21:33:08,927 - logger_File -INFO - User click on My Account
+2021-02-20 21:33:09,216 - logger_File -INFO - User click on Login
+2021-02-20 21:33:13,231 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   undefined
+2021-02-20 21:33:13,239 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-02-20 21:33:16,642 - logger_File -INFO - Retail page is opened
+2021-02-20 21:33:16,650 - logger_File -INFO - Page title  is verified
+2021-02-20 21:33:17,083 - logger_File -INFO - User click on My Account
+2021-02-20 21:33:17,375 - logger_File -INFO - User click on Login
+2021-02-20 21:33:21,395 - logger_File -INFO - Edit your account Information   undefined
+2021-02-20 21:36:57,145 - logger_File -INFO - Scenario Register as an Affiliate userwith Cheque Payment Method Started 
+2021-02-20 21:37:01,359 - logger_File -INFO - Retail page is opened
+2021-02-20 21:37:01,369 - logger_File -INFO - Page title  is verified
+2021-02-20 21:37:01,774 - logger_File -INFO - User click on My Account
+2021-02-20 21:37:02,045 - logger_File -INFO - User click on Login
+2021-02-20 21:37:05,438 - logger_File -INFO - User enter email address
+2021-02-20 21:37:05,507 - logger_File -INFO - User enter password
+2021-02-20 21:37:07,263 - logger_File -INFO - User click on Login button
+2021-02-20 21:37:11,269 - logger_File -INFO - Register as an Affiliate userwith Cheque Payment Method   undefined
+2021-02-20 21:37:11,274 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-02-20 21:37:14,592 - logger_File -INFO - Retail page is opened
+2021-02-20 21:37:14,602 - logger_File -INFO - Page title  is verified
+2021-02-20 21:37:15,023 - logger_File -INFO - User click on My Account
+2021-02-20 21:37:15,296 - logger_File -INFO - User click on Login
+2021-02-20 21:37:18,673 - logger_File -INFO - User enter email address
+2021-02-20 21:37:18,745 - logger_File -INFO - User enter password
+2021-02-20 21:37:20,771 - logger_File -INFO - User click on Login button
+2021-02-20 21:37:24,913 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   undefined
+2021-02-20 21:37:24,920 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-02-20 21:37:28,487 - logger_File -INFO - Retail page is opened
+2021-02-20 21:37:28,495 - logger_File -INFO - Page title  is verified
+2021-02-20 21:37:28,864 - logger_File -INFO - User click on My Account
+2021-02-20 21:37:29,136 - logger_File -INFO - User click on Login
+2021-02-20 21:37:32,513 - logger_File -INFO - User enter email address
+2021-02-20 21:37:32,578 - logger_File -INFO - User enter password
+2021-02-20 21:37:34,421 - logger_File -INFO - User click on Login button
+2021-02-20 21:37:38,445 - logger_File -INFO - Edit your account Information   undefined
+2021-02-21 16:35:59,168 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-02-21 16:36:07,953 - logger_File -INFO - Retail page is opened
+2021-02-21 16:36:07,968 - logger_File -INFO - Page title  is verified
+2021-02-21 16:36:08,408 - logger_File -INFO - User click on My Account
+2021-02-21 16:36:08,731 - logger_File -INFO - User click on Login
+2021-02-21 16:36:12,141 - logger_File -INFO - User enter email address
+2021-02-21 16:36:12,214 - logger_File -INFO - User enter password
+2021-02-21 16:36:13,622 - logger_File -INFO - User click on Login button
+2021-02-21 16:36:18,086 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   failed
+2021-02-21 16:36:18,098 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-02-21 16:36:22,526 - logger_File -INFO - Retail page is opened
+2021-02-21 16:36:22,538 - logger_File -INFO - Page title  is verified
+2021-02-21 16:36:22,923 - logger_File -INFO - User click on My Account
+2021-02-21 16:36:23,195 - logger_File -INFO - User click on Login
+2021-02-21 16:36:26,575 - logger_File -INFO - User enter email address
+2021-02-21 16:36:26,648 - logger_File -INFO - User enter password
+2021-02-21 16:36:27,632 - logger_File -INFO - User click on Login button
+2021-02-21 16:36:32,382 - logger_File -INFO - Edit your account Information   failed
+2021-02-21 16:40:05,602 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-02-21 16:40:10,171 - logger_File -INFO - Retail page is opened
+2021-02-21 16:40:10,185 - logger_File -INFO - Page title  is verified
+2021-02-21 16:40:10,618 - logger_File -INFO - User click on My Account
+2021-02-21 16:40:10,899 - logger_File -INFO - User click on Login
+2021-02-21 16:40:14,299 - logger_File -INFO - User enter email address
+2021-02-21 16:40:14,371 - logger_File -INFO - User enter password
+2021-02-21 16:40:15,747 - logger_File -INFO - User click on Login button
+2021-02-21 16:40:20,236 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   failed
+2021-02-21 16:40:20,241 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-02-21 16:40:26,399 - logger_File -INFO - Retail page is opened
+2021-02-21 16:40:26,408 - logger_File -INFO - Page title  is verified
+2021-02-21 16:40:26,816 - logger_File -INFO - User click on My Account
+2021-02-21 16:40:29,645 - logger_File -INFO - User click on Login
+2021-02-21 16:40:33,023 - logger_File -INFO - User enter email address
+2021-02-21 16:40:33,093 - logger_File -INFO - User enter password
+2021-02-21 16:40:34,237 - logger_File -INFO - User click on Login button
+2021-02-21 16:40:39,197 - logger_File -INFO - Edit your account Information   failed
+2021-02-21 16:45:51,421 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started 
+2021-02-21 16:45:55,900 - logger_File -INFO - Retail page is opened
+2021-02-21 16:45:55,915 - logger_File -INFO - Page title  is verified
+2021-02-21 16:45:56,374 - logger_File -INFO - User click on My Account
+2021-02-21 16:45:56,706 - logger_File -INFO - User click on Login
+2021-02-21 16:46:00,087 - logger_File -INFO - User enter email address
+2021-02-21 16:46:00,149 - logger_File -INFO - User enter password
+2021-02-21 16:46:01,631 - logger_File -INFO - User click on Login button
+2021-02-21 16:46:07,444 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   passed
+2021-02-21 16:46:07,453 - logger_File -INFO - Scenario Edit your account Information Started 
+2021-02-21 16:46:10,919 - logger_File -INFO - Retail page is opened
+2021-02-21 16:46:10,930 - logger_File -INFO - Page title  is verified
+2021-02-21 16:46:11,300 - logger_File -INFO - User click on My Account
+2021-02-21 16:46:11,554 - logger_File -INFO - User click on Login
+2021-02-21 16:46:14,942 - logger_File -INFO - User enter email address
+2021-02-21 16:46:15,014 - logger_File -INFO - User enter password
+2021-02-21 16:46:16,943 - logger_File -INFO - User click on Login button
+2021-02-21 16:46:22,463 - logger_File -INFO - Edit your account Information   passed
