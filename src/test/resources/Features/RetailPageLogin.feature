@@ -1,4 +1,4 @@
-@RetailTesting
+@TestingOnRetailPage
 Feature: Retail Page Login Testing 
 
 Background: 

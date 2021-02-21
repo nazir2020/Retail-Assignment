@@ -81,6 +81,7 @@ public class RetailPageObject extends Base {
 	private WebElement firstName;
 	
 	public void firstName(String ffName) {
+		firstName.clear();
 		WebDriverUtility.enterValue(firstName, ffName);
 	}
 	
@@ -88,6 +89,7 @@ public class RetailPageObject extends Base {
 	private WebElement lastName;
 	
 	public void lastName(String lName) {
+		lastName.clear();
 		WebDriverUtility.enterValue(lastName, lName);
 	}
 	
@@ -95,6 +97,7 @@ public class RetailPageObject extends Base {
 	private WebElement email;
 	
 	public void email(String aemail) {
+		email.clear();
 		WebDriverUtility.enterValue(email, aemail);
 	}
 	
@@ -102,6 +105,7 @@ public class RetailPageObject extends Base {
 	private WebElement telephone;
 	
 	public void telephone(String ttelephone) {
+		telephone.clear();
 		WebDriverUtility.enterValue(telephone, ttelephone);
 	}
 	

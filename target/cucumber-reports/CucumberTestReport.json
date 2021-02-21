@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2536804000,
+              "duration": 2212801400,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 58582600,
+              "duration": 60994900,
               "status": "passed"
             },
             "line": 7,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 3616550800,
+              "duration": 3551218400,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 477622600,
+              "duration": 482837300,
               "status": "passed"
             },
             "line": 9,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 1156890000,
+              "duration": 1424312900,
               "status": "passed"
             },
             "line": 10,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 3300230500,
+              "duration": 3296893200,
               "status": "passed"
             },
             "line": 11,
@@ -127,7 +127,7 @@
         "before": [
           {
             "result": {
-              "duration": 2489129400,
+              "duration": 2403736500,
               "status": "passed"
             },
             "match": {
@@ -142,8 +142,9 @@
         "after": [
           {
             "result": {
-              "duration": 725056000,
-              "status": "passed"
+              "duration": 4103884300,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027LAPTOP-5E7SJ6AA\u0027, ip: \u002710.0.0.57\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\suhra\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ff0d81674765647960a2b2e7e73a2ba\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)\r\n\tat core.Base.tearDown(Base.java:104)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:65)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -155,8 +156,9 @@
         "steps": [
           {
             "result": {
-              "duration": 271538900,
-              "status": "passed"
+              "duration": 2941182900,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:557)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy22.click(Unknown Source)\r\n\tat pageObjects.RetailPageObject.editAffiliateInformation(RetailPageObject.java:21)\r\n\tat stepDefinitions.RetailPageLoginTestStepDefinition.user_click_on_Edit_your_affiliate_informationlink(RetailPageLoginTestStepDefinition.java:20)\r\n\tat ✽.When User click on‘Edit your affiliate informationlink(Features/RetailPageLogin.feature:22)\r\n",
+              "status": "failed"
             },
             "line": 22,
             "name": "User click on‘Edit your affiliate informationlink",
@@ -167,8 +169,7 @@
           },
           {
             "result": {
-              "duration": 71967100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "user click on Bank Transfer radio button",
@@ -179,8 +180,7 @@
           },
           {
             "result": {
-              "duration": 340895500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "User fill Bank information with below information",
@@ -213,8 +213,7 @@
           },
           {
             "result": {
-              "duration": 799951700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "User click on Continue AffiliateButton",
@@ -225,8 +224,7 @@
           },
           {
             "result": {
-              "duration": 288457300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "User should see a success message",
@@ -246,7 +244,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2238295600,
+              "duration": 2909518200,
               "status": "passed"
             },
             "line": 6,
@@ -258,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 61011300,
+              "duration": 78142900,
               "status": "passed"
             },
             "line": 7,
@@ -270,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 3544585700,
+              "duration": 3628834300,
               "status": "passed"
             },
             "line": 8,
@@ -282,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 513125800,
+              "duration": 487075300,
               "status": "passed"
             },
             "line": 9,
@@ -304,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 1583388800,
+              "duration": 706916600,
               "status": "passed"
             },
             "line": 10,
@@ -316,8 +314,9 @@
           },
           {
             "result": {
-              "duration": 3292242100,
-              "status": "passed"
+              "duration": 3160683700,
+              "error_message": "java.lang.RuntimeException: Unexpected result for screenshot command: null\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)\r\n\tat utilities.WebDriverUtility.screenShot(WebDriverUtility.java:169)\r\n\tat stepDefinitions.LoginTestStepDefinition.user_should_be_logged_in_to_MyAccount_dashboard(LoginTestStepDefinition.java:70)\r\n\tat ✽.Then User should be logged in to MyAccount dashboard(Features/RetailPageLogin.feature:11)\r\n",
+              "status": "failed"
             },
             "line": 11,
             "name": "User should be logged in to MyAccount dashboard",
@@ -332,7 +331,7 @@
         "before": [
           {
             "result": {
-              "duration": 1546635000,
+              "duration": 1571567200,
               "status": "passed"
             },
             "match": {
@@ -347,8 +346,9 @@
         "after": [
           {
             "result": {
-              "duration": 741843400,
-              "status": "passed"
+              "duration": 23775800,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027LAPTOP-5E7SJ6AA\u0027, ip: \u002710.0.0.57\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\suhra\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d3059e781f94ead2a29663d4795e0561\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)\r\n\tat core.Base.tearDown(Base.java:104)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:65)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -360,8 +360,7 @@
         "steps": [
           {
             "result": {
-              "duration": 669929100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "User click on‘Edit your account information’ link",
@@ -372,8 +371,7 @@
           },
           {
             "result": {
-              "duration": 299965300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "User modify below information",
@@ -404,8 +402,7 @@
           },
           {
             "result": {
-              "duration": 77144800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "User click on continue button",
@@ -416,8 +413,7 @@
           },
           {
             "result": {
-              "duration": 430156600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "User should seea message ‘Success: Your account has been successfully updated.’",
@@ -437,7 +433,7 @@
     "tags": [
       {
         "line": 1,
-        "name": "@RetailTesting"
+        "name": "@TestingOnRetailPage"
       }
     ]
   }
