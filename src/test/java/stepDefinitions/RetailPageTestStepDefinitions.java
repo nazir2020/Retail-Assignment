@@ -1,13 +1,8 @@
 package stepDefinitions;
 
-import static org.junit.Assert.assertTrue;
-
 import java.util.List;
 import java.util.Map;
-
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
-
 import core.Base;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Then;
