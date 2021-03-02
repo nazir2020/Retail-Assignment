@@ -680,3 +680,9 @@
 2021-02-21 17:21:21,853 - logger_File -INFO - User enter email address
 2021-02-21 17:21:21,918 - logger_File -INFO - User enter password
 2021-02-21 17:21:22,961 - logger_File -INFO - User click on Login button
+2021-02-22 12:28:09,601 - logger_File -INFO - Scenario Execute all information from Actor table Started 
+2021-02-22 12:28:15,418 - logger_File -INFO - connection is established between jdbc and db
+2021-02-22 12:28:15,506 - logger_File -INFO - select first_name from public.actor: has been executed
+2021-02-22 12:28:15,528 - logger_File -INFO - resultset is stored in a csv file in outcome folder
+2021-02-22 12:28:15,531 - logger_File -INFO - database connection has been closed
+2021-02-22 12:28:16,774 - logger_File -INFO - Execute all information from Actor table   passed
